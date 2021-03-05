@@ -1,0 +1,25 @@
+{
+  "name": "examnode",
+  "version": "1.0.0",
+  "description": "examen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabKebab/exam5mars.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Louis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KabKebab/exam5mars/issues"
+  },
+  "homepage": "https://github.com/KabKebab/exam5mars#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -50,7 +50,7 @@ app.post('/api/animal/:id', (req, res) => {
     let bod = req.body;
     anims.push(new Animal(bod.espece,bod.nom,bod.couleur,bod.age));
     sessionStorage.setItem('animaux', anims);
-
+    return res.sendStatus(200);
 });
 
 function populate(){
